@@ -50,27 +50,27 @@ const Sidebar = () => {
                     <h4 className='text-white'>Categoria</h4>
                     <li className="nav-item">
                         <a className="nav-link active text-white" href="#">
-                            Proximos
+                            Fubol
                         </a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link text-white" href="#">
-                            <i className="bi bi-broadcast">En vivo</i>
+                            <i className="bi bi-broadcast">Basquet</i>
                         </a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link text-white" href="#">
-                            Pasados
+                            Cesto
                         </a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link text-white" href="#">
-                            Guardados
+                            Running
                         </a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link text-white" href="#">
-                            Resultados
+                            Tenis
                         </a>
                     </li>
                 </ul>
