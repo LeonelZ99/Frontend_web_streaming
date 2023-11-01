@@ -19,8 +19,16 @@ function App() {
       {loggedIn ? (
         <>
           <Navbar />
-          <Sidebar />
-          <Body />
+          <div className="container">
+            <div className="row">
+              <div className="col-md-2">
+                <Sidebar />
+              </div>
+              <div className="col-md-10">
+                <Body />
+              </div>
+            </div>
+          </div>
         </>
       ) : (
         <Login onLogin={handleLogin} />
