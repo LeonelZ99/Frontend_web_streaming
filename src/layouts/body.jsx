@@ -39,15 +39,17 @@ const Body = () => {
                 ))}
             </div>
         </div>*/
-        <div className="container main-content text-center text-white">
+        <div className="container-fluid main-content text-center text-white">
             <div className="row">
-                <div className='div1'><h2>Proximos</h2></div>
-                <div className="col-sm-8"><div><img src={img} alt="" style={{ width: '100%' }} /></div></div>
-                <div className="col-sm-4"><div><img src={img} alt="" style={{ width: '100%' }} /></div></div>
+                <div className='div1'><h2>Próximos</h2></div>
+                <div className="col-sm-8"><div><img src={img} alt="" style={{ width: '100%', height:'50vh', objectFit:'fill', borderRadius:10 }} /></div></div>
+                <div className="col-sm-4"><div><img src={img} alt="" style={{ width: '100%', height:'50vh', borderRadius:10 }} /></div></div>
             </div>
             <div className="row d-flex flex-wrap">
-                <div className='div1'><h4>Más adelante</h4></div>
-                <div className="col-sm"><Card style={{ width: '15rem' }}>
+                <div className='div1 mt-3'><h4>Más adelante</h4></div>
+                {/* Card 1 */}
+                <div className="col-md-3">
+                    <Card>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -57,8 +59,12 @@ const Body = () => {
                         </Card.Text>
                         <Button variant="primary">Go somewhere</Button>
                     </Card.Body>
-                </Card></div>
-                <div className="col-sm"><Card style={{ width: '15rem' }}>
+                    </Card>
+                </div>
+                {/* Card 1/ */}
+                {/* Card 2 */}
+                <div className="col-md-3">
+                    <Card>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -68,8 +74,12 @@ const Body = () => {
                         </Card.Text>
                         <Button variant="primary">Go somewhere</Button>
                     </Card.Body>
-                </Card></div>
-                <div className="col-sm"><Card style={{ width: '15rem' }}>
+                    </Card>
+                </div>
+                {/* Card 2/ */}
+                {/* Card 3 */}
+                <div className="col-md-3">
+                    <Card>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -79,8 +89,11 @@ const Body = () => {
                         </Card.Text>
                         <Button variant="primary">Go somewhere</Button>
                     </Card.Body>
-                </Card></div>
-                <div className="col-sm"><Card style={{ width: '15rem' }}>
+                    </Card>
+                </div>
+                {/* Card 3/ */}
+                {/* Card 4 */}
+                <div className="col-md-3"><Card>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
@@ -90,7 +103,70 @@ const Body = () => {
                         </Card.Text>
                         <Button variant="primary">Go somewhere</Button>
                     </Card.Body>
-                </Card></div>
+                    </Card>
+                </div>
+                {/* Card 4/ */}
+            </div>
+            <div className="row d-flex flex-wrap mt-3">
+                {/* Card 5 */}
+                <div className="col-md-3">
+                    <Card>
+                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                    </Card>
+                </div>
+                {/* Card 5/ */}
+                {/* Card 6 */}
+                <div className="col-md-3">
+                    <Card>
+                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                    </Card>
+                </div>
+                {/* Card 6/ */}
+                {/* Card 7 */}
+                <div className="col-md-3">
+                    <Card>
+                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                    </Card>
+                </div>
+                {/* Card 7/ */}
+                {/* Card 8 */}
+                <div className="col-md-3"><Card>
+                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                    </Card>
+                </div>
+                {/* Card 8/ */}
             </div>
         </div>
     );

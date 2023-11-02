@@ -5,14 +5,24 @@ import { ImFeed } from "react-icons/im";
 import { BiCaretRightSquare } from "react-icons/bi";
 import { BiBookmark } from "react-icons/bi";
 import { BsKanban } from "react-icons/bs";
+import Button from 'react-bootstrap/Button';
+import { HiHome } from 'react-icons/hi';
+import logo from '../img/pico-deportes-1.png';
+
 
 
 
 const Sidebar = () => {
     return (
         <div id="sidebar" className="custom-bg-color">
-            <div className="logo-container">
-                <button className='btn'><div className="logo">Pico Deportes</div></button>
+            <div className="logo-container" style={{textDecoration: 'none'}}>
+                {/* <button className='btn'><img src={logo} className="icon"></img><div className="logo">Pico <br></br>Deportes</div></button> */}
+                <Button variant="link" className="d-flex align-items-center">
+          <img src={logo} alt="Mi Ícono" className="mr-2 ml-3" style={{width:'60px', height:'60px', marginLeft:'10px', textDecoration: 'none'}}/>
+          <span style={{ textDecoration: 'none', cursor: 'pointer', marginLeft:'10px' }}>
+              Pico Deportes
+            </span>
+        </Button>
             </div>
             <div className="position-sticky" style={{ paddingTop: '100px' }}>
                 <ul className="nav flex-column  align-items-center">

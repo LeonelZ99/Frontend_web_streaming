@@ -32,4 +32,9 @@
     color: #fff; /* Color del texto del logotipo */
     font-size: 1.8rem; /* Tamaño de fuente del logotipo */
   }
+
+  .icon {
+    height: 50px;
+    width: 50px;
+  }
   

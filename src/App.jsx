@@ -6,6 +6,7 @@ import Sidebar from './layouts/sidebar';
 import Body from './layouts/body';
 
 
+
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
 
@@ -15,11 +16,11 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App container-fluid">
       {loggedIn ? (
         <>
           <Navbar />
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-md-2">
                 <Sidebar />
