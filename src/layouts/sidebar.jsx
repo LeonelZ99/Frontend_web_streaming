@@ -15,11 +15,11 @@ import logo from '../img/pico-deportes-1.png';
 const Sidebar = () => {
     return (
         <div id="sidebar" className="custom-bg-color">
-            <div className="logo-container" style={{textDecoration: 'none'}}>
+            <div className="logo-container">
                 {/* <button className='btn'><img src={logo} className="icon"></img><div className="logo">Pico <br></br>Deportes</div></button> */}
-                <Button variant="link" className="d-flex align-items-center">
+                <Button variant="link" className="d-flex align-items-center" style={{textDecoration: 'none', color: 'white'}}>
           <img src={logo} alt="Mi Ícono" className="mr-2 ml-3" style={{width:'60px', height:'60px', marginLeft:'10px', textDecoration: 'none'}}/>
-          <span style={{ textDecoration: 'none', cursor: 'pointer', marginLeft:'10px' }}>
+          <span style={{cursor: 'pointer', marginLeft:'10px' }}>
               Pico Deportes
             </span>
         </Button>

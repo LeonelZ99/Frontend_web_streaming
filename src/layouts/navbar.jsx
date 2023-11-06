@@ -6,7 +6,7 @@ import { Dropdown } from 'react-bootstrap';
 const NavbarExample = () => {
     return (
         <>
-            <nav className="navbar container-fluid">
+            <nav className="navbar">
                 <div className="container-fluid">
                     <form className="mx-auto d-flex" role="buscar">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
