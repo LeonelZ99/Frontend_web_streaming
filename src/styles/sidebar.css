@@ -1,7 +1,7 @@
 #sidebar {
     background-color: #252836;
     width: 250px; /* Ancho de la barra lateral */
-    position: fixed; /* Fija la barra lateral en su posición */
+    /*position: fixed; Fija la barra lateral en su posición */
     height: 100%; /* Establece la altura al 100% del contenedor padre */
     left: 0; /* Alinea la barra lateral a la izquierda */
     top: 0; /* Alinea la barra lateral en la parte superior */

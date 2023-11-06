@@ -15,15 +15,8 @@ import logo from '../img/pico-deportes-1.png';
 const Sidebar = () => {
     return (
         <div id="sidebar" className="custom-bg-color">
-            <div className="logo-container">
-                {/* <button className='btn'><img src={logo} className="icon"></img><div className="logo">Pico <br></br>Deportes</div></button> */}
-                <Button variant="link" className="d-flex align-items-center" style={{textDecoration: 'none', color: 'white'}}>
-          <img src={logo} alt="Mi Ícono" className="mr-2 ml-3" style={{width:'60px', height:'60px', marginLeft:'10px', textDecoration: 'none'}}/>
-          <span style={{cursor: 'pointer', marginLeft:'10px' }}>
-              Pico Deportes
-            </span>
-        </Button>
-            </div>
+            
+            <div className='scrollbarSidebar'>
             <div className="position-sticky" style={{ paddingTop: '100px' }}>
                 <ul className="nav flex-column  align-items-center">
                     <h4 className='text-white'>Menu</h4>
@@ -84,6 +77,7 @@ const Sidebar = () => {
                         </a>
                     </li>
                 </ul>
+            </div>
             </div>
 
         </div>

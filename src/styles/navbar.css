@@ -17,7 +17,7 @@
   /* Color del texto del campo de entrada de búsqueda */
   border: none;
   /* Borde del campo de entrada de búsqueda */
-  width: 600px;
+  width: 450px;
 }
 
 /* Form Input en estado :focus */
@@ -28,7 +28,7 @@
   /* Color del texto en estado :focus */
   border: none;
   /* Borde del campo de entrada en estado :focus */
-  width: 600px;
+  width: 450px;
 }
 
 /* Form Button */
