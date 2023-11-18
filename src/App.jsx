@@ -10,7 +10,7 @@ import Body from './layouts/body';
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
 
-  // Función para manejar el inicio de sesión exitoso
+  //Función para manejar el inicio de sesión exitoso
   const handleLogin = () => {
     setLoggedIn(true);
   };
@@ -19,16 +19,18 @@ function App() {
     <div className="App container-fluid">
       {loggedIn ? (
         <>
-          <Navbar />
           <div className="container-fluid">
             <div className="row">
+              <Navbar />
+            </div>
+            <div className="row">
               <div className="col-md-2">
-                <Sidebar />
+                  <Sidebar />
               </div>
               <div className="col-md-10">
-                <Body />
+                  <Body />
               </div>
-            </div>
+              </div>
           </div>
         </>
       ) : (

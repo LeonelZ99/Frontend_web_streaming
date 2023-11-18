@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "subtituloFont";
+    src: url(/src/styles/fonts/KdamThmorPro-Regular.ttf);
+  }
+
+.fondo{
+    background-color: #3f3652;
+    height: 100%;
+}
+
+.subtitulo{
+    color: white;
+    font-family: "subtituloFont";
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+/* PRIMERA ROW*/
+.imagenPrincipal{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover; 
+    z-index: 0;
+}
+
+.degradado{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgba(255, 117, 81, 1), rgba(0, 0, 0, .5) 70%);
+    z-index: 1;
+}
+
+.textoOverlay{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    color: white;
+
+    z-index: 2;
+}
+
+/* SEGUNDA ROW */
+.bodyCard{
+    align-items: center;
+}
+
+.styleCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid #82859a;
+}
