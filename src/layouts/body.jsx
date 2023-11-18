@@ -3,7 +3,7 @@ import '../styles/body.css';
 import { Card, Button } from 'react-bootstrap';
 import img from '../img/img2.jpg';
 import imgCard from '../img/pelota.jpeg';
-
+import imgPerfil from '../img/avatar1.png';
 
 const Body = () => {
     const [eventos, setEventos] = useState([]);
@@ -25,23 +25,47 @@ const Body = () => {
         <div className="container-fluid fondo">
             {/*PARTE PRINCIPAL*/}
             <div className="row">
-                <h2 className='subtitulo'>Próximos</h2>
-                <div className="col-sm-8">
+                <h1 className='subtitulo'>Próximos</h1>
+                <div className="col-sm-6">
                     <div className="position-relative">
-                    <img src={img} alt="" className='imagenPrincipal' />
-                    <div className='degradado'></div>
-                    <h3 className='textoOverlay'>Pre-Federal: <br></br> Independiente jvs <br /> Cultural Argentino</h3>
+                        <img src={img} alt="" className='imagenPrincipal' />
+                        <div className='degradado'></div>
+                        <div className='degradado'></div>
+                        <h2 className='textoOverlay1'>Pre-Federal: </h2>
+                        <h3 className='textoOverlay2'>Independiente junior</h3>
+                        <h3 className='textoOverlay3'> vs </h3>
+                        <h3 className='textoOverlay4'>Cultural Argentino</h3>
+
+                        <div className='perfil-container'>
+                            <img src={imgPerfil} alt="Profile Avatar" className='perfil' />
+                        </div>
+                        <span className="partido-name"> Hoy 20:00 hs</span>
+                        <span className='deporte-name'> Futbol</span>
                     </div> 
                 </div>
                 
-                <div className="col-sm-4">
-                    <img src={img} alt="" className='imagenPrincipal' />
+                <div className="col-sm-6">
+                    <div className="position-relative">
+                        <img src={img} alt="" className='imagenPrincipal' />
+                        <div className='degradado'></div>
+                        <div className='degradado'></div>
+                        <h2 className='textoOverlay1'>Pre-Federal: </h2>
+                        <h3 className='textoOverlay2'>Independiente junior</h3>
+                        <h3 className='textoOverlay3'> vs </h3>
+                        <h3 className='textoOverlay4'>Cultural Argentino</h3>
+
+                        <div className='perfil-container'>
+                            <img src={imgPerfil} alt="Profile Avatar" className='perfil' />
+                        </div>
+                        <span className="partido-name"> Hoy 20:00 hs</span>
+                        <span className='deporte-name'> Futbol</span>
+                    </div> 
                 </div>
             </div>
 
             {/* PARTE CARDS */}
             <div className="row d-flex flex-wrap">
-                <h3 className='subtitulo mt-4'>Más adelante</h3>
+                <h3 className='subtitulo mt-5'>Más adelante</h3>
 
                 {/* Card 1 */}
                 <div className="col-md-3">

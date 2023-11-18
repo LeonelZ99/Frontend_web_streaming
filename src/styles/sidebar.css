@@ -5,6 +5,7 @@
 .contenedorSide{
   background-color: #3f3652;
   height: 100%;
+  border-radius: 20px;
 }
 
 .menu{
